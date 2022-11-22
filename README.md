@@ -11,7 +11,8 @@ Clonar esta misma web (responsive): https://circle-agency-35d27e.webflow.io/
   - Contact us: Navbar, contacta y Sección de pie de página.
 
   - Proyecto: Navbar, Section del proyecto, Sección de los proyectos, Sección CTA (Call to Action) y Sección de pie de página.
-    reutilizar codigo\*
+
+reutilizar codigo\*
 
 ## Planificación:
 
