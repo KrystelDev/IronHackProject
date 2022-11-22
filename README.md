@@ -25,7 +25,7 @@ Lunes 21, noviembre, 2022:
 - Vincular archivos entre sí.
 - Planificar proyecto.
 
-Martes 22, Noviembre 2022
+Martes 22, noviembre 2022
 
 - Estructura HTML Home.
 - Estructura HTML Contact us.
