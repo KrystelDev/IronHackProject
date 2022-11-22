@@ -6,27 +6,12 @@ Clonar esta misma web (responsive): https://circle-agency-35d27e.webflow.io/
 
 - Esquema:
 
-  - Home:
-    Navbar \*
-    Sección de héroe
-    Sección Cliente
-    Sección de Proyectos
-    Sección de Testimonios
-    Sección de Servicios
-    Sección CTA (Call to Action) \*
-    Sección de pie de página \*
+  - Home: Navbar \*, Sección de héroe, Sección Cliente, Sección de Proyectos, Sección de Testimonios, Sección de Servicios, Sección CTA (Call to Action) \* y Sección de pie de página \*.
 
-  - Contact us:
-    Navbar
-    contacta
-    Sección de pie de página
+  - Contact us: Navbar, contacta y Sección de pie de página.
 
-  - Proyecto:
-    Navbar
-    Section del proyecto
-    Sección de los proyectos
-    Sección CTA (Call to Action)
-    Sección de pie de página
+  - Proyecto: Navbar, Section del proyecto, Sección de los proyectos, Sección CTA (Call to Action) y Sección de pie de página.
+    reutilizar codigo\*
 
 ## Planificación:
 
@@ -44,7 +29,6 @@ Martes 22, Noviembre 2022
 - Estructura HTML Home
 - Estructura HTML Contact us
 - Estructura HTML Home Proyect
-  reutilizar codigo\*
 - Agregar navegación entre las páginas.
 - Preparar el CSS mobile navbar
 - Preparar el CSS mobile sección de héroe
