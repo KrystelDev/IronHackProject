@@ -1,5 +1,12 @@
 /* Customize CSS native */
 
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  background-color: #f2f4fc;
+  color: #2b2929;
+}
+
 /* ********************** Start nav ********************** */
 nav .container-fluid {
   padding: 2px 32px;
@@ -34,6 +41,56 @@ nav .navbar-toggler {
   padding: 15px 30px;
   background-color: #072ac8;
   font-size: 17px;
+}
+
+/* section #1 */
+.hero {
+  margin: 0 30px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  padding: 20px 0;
+}
+h4 {
+  color: #6b708d;
+  font-size: 17px;
+  line-height: 150%;
+  padding-top: 3px;
+  margin-bottom: 2.4rem;
+  font-weight: 100;
+}
+
+.hero button {
+  padding: 12px 30px;
+  font-size: 17px;
+  border: 0;
+}
+
+.hero button:first-child {
+  background-color: #072ac8;
+  color: white;
+}
+.hero button:last-child {
+  color: #6b708d;
+  font-weight: 500;
+  text-decoration: none;
+  background: none;
+  margin-left: 0.6rem;
+}
+
+.hero .buttons {
+  margin-left: 2rem;
+}
+
+.hero img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 40px;
 }
 
 /* pruebas preview*/
