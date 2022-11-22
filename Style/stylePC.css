@@ -1,4 +1,3 @@
-.pruebaLinkeado {
-  background-color: green;
-  height: 50vh;
+.notDisplayMobile {
+  display: inline-block;
 }
