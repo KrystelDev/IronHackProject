@@ -35,3 +35,20 @@ h1 {
 .clientes {
   margin-top: 5rem;
 }
+
+/* Projects */
+.projects h2 {
+  text-align: start;
+  margin-left: 1.5rem;
+}
+.projects div {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+.projects article {
+  margin: 0;
+}
