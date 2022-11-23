@@ -72,3 +72,14 @@ a.notDisplayMobileTablet {
   left: 40%;
   bottom: -10%;
 }
+/* Clientes */
+.clientes {
+  flex-direction: row;
+  margin-right: 3rem;
+  align-items: center;
+}
+
+/* projects */
+.projects > div {
+  grid-template-columns: 1fr 1fr 1fr;
+}

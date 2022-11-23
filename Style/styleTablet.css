@@ -97,6 +97,7 @@ h1 {
 footer {
   flex-direction: row;
   height: 7rem;
+  justify-content: space-around;
 }
 footer > div:nth-child(1) {
   display: flex;
