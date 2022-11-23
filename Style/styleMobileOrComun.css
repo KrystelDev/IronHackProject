@@ -3,7 +3,7 @@
 * {
   font-family: Roboto, sans-serif;
   margin: 0;
-  color: #2b2929;
+  color: #292e47;
 }
 body {
   background-color: #f2f4fc;
@@ -242,10 +242,60 @@ div:has(> .perfilNombre) {
   background-image: url("./img/services-section/icons/3.svg");
 }
 
-/* pruebas preview*/
+/* contact-us */
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffc600;
+  margin-top: 4rem;
+}
 
-input {
-  background: url(./img/newsletter/icon/mail.svg) no-repeat;
-  background-size: 4vh;
-  text-indent: 47px;
+.contact-us h2 {
+  margin: 6.2rem auto 0.8rem;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.contact-us form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5.5rem;
+  margin-top: 0.5rem;
+}
+
+.contact-us form * {
+  height: 5rem;
+  width: 24.5rem;
+  border: none;
+}
+
+.contact-us form > input {
+  background-image: url(./img/newsletter/icon/mail.svg);
+  background-position: 8% 50%;
+  background-color: #f2f4fc;
+  background-repeat: no-repeat;
+  background-size: 5vh;
+  text-indent: 65px;
+  margin-bottom: 1.5rem;
+  border: solid 1px #cccc;
+  font-size: 17px;
+}
+::placeholder {
+  color: black;
+}
+.contact-us form > button {
+  padding: 15px 30px;
+  background-color: #072ac8;
+  font-size: 17px;
+  color: white;
+}
+
+/* Borrar solo para pruebas */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
