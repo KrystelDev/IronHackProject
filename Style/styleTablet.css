@@ -77,3 +77,8 @@ h1 {
   right: 10%;
   top: 10%;
 }
+
+/* services */
+.services div {
+  grid-template-columns: 1fr 1fr 1fr;
+}
