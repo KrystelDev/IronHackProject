@@ -41,6 +41,34 @@ a.notDisplayMobileTablet {
 }
 
 /* pruebas */
+.hero {
+  display: flex;
+}
+
+.hero article:nth-child(1) {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  margin: 1.5rem;
+}
+
+.hero h4 {
+  font-size: 20px;
+}
+
+.hero article:nth-child(2) > img:nth-child(1) {
+  left: -23%;
+  top: -0.1%;
+}
+.hero article:nth-child(2) > img:nth-child(2) {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
 .hero article:nth-child(2) > img:nth-child(3) {
-  right: 2%;
+  left: 40%;
+  bottom: -10%;
 }
