@@ -1,6 +1,37 @@
 /* Customize CSS native */
 
-/* ********************** Start nav ********************** */
+.notDisplayMobile {
+  display: inline-block;
+}
+
+/* ********************** Start hero  ********************** */
 h1 {
   font-size: 60px;
+}
+
+.hero article:nth-child(2) {
+  position: relative;
+}
+
+.hero article:nth-child(2) > img:nth-child(1) {
+  position: absolute;
+  max-width: 300px;
+  left: -5%;
+  top: 6%;
+  right: auto;
+  bottom: auto;
+}
+
+.hero article:nth-child(2) > img:nth-child(3) {
+  position: absolute;
+  max-width: 274px;
+  left: auto;
+  top: auto;
+  right: -10%;
+  bottom: -15%;
+}
+
+/* Clientes */
+.clientes {
+  margin-top: 5rem;
 }

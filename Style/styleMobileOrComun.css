@@ -9,7 +9,8 @@ body {
   background-color: #f2f4fc;
 }
 
-.notDisplayMobile {
+.notDisplayMobile,
+.notDisplayMobileTablet {
   display: none;
   /* padding: 15px 30px;
   background-color: #072ac8;
@@ -93,8 +94,8 @@ h4 {
   margin-left: 2rem;
 }
 
-.hero img {
-  max-width: 100%;
+.hero img:nth-child(2) {
+  max-width: 80%;
   vertical-align: middle;
   display: inline-block;
   margin-top: 40px;
