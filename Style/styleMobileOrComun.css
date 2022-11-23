@@ -218,6 +218,29 @@ div:has(> .perfilNombre) {
   color: #ecf7ff;
   font-size: 13px;
 }
+/* services */
+.services h2 {
+  margin: 2.5rem auto 1rem;
+}
+.services .logo {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  background-color: #ecf7ff;
+  background-position: 50% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin: 0.5rem 0.5rem 2rem;
+}
+.logo1 {
+  background-image: url("./img/services-section/icons/1.svg");
+}
+.logo2 {
+  background-image: url("./img/services-section/icons/3.svg");
+}
+.logo3 {
+  background-image: url("./img/services-section/icons/3.svg");
+}
 
 /* pruebas preview*/
 
