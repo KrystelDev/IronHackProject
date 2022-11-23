@@ -158,13 +158,14 @@ h4 {
 .testimonial {
   background-image: url("./img/testimonial-section/orbit.png");
   background-color: #292e47;
-  background-size: contain;
+  background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1rem;
 }
 .testimonial h2 {
   margin: 50px;

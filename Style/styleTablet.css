@@ -41,7 +41,7 @@ h1 {
   text-align: start;
   margin-left: 1.5rem;
 }
-.projects div {
+.projects > div {
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
@@ -51,4 +51,29 @@ h1 {
 }
 .projects article {
   margin: 0;
+}
+
+/* testimonial */
+.testimonial {
+  position: relative;
+}
+.testimonial > img {
+  position: absolute;
+  width: 13%;
+}
+.testimonial > img:nth-child(4) {
+  left: 10%;
+  top: 10%;
+}
+.testimonial > img:nth-child(6) {
+  left: 10%;
+  bottom: 10%;
+}
+.testimonial > img:nth-child(5) {
+  right: 10%;
+  bottom: 10%;
+}
+.testimonial > img:nth-child(7) {
+  right: 10%;
+  top: 10%;
 }
