@@ -1,3 +1,46 @@
+/* Customize CSS native */
+
 .notDisplayMobileTablet {
   display: inline-block;
+}
+.notDisplayMobileTa {
+}
+
+/* Start navBar */
+nav .container-fluid {
+  padding: 4rem 0 4.5rem 0.1rem;
+}
+
+li:nth-child(1) a:nth-child(1) {
+  color: #0082f3;
+  font-weight: 700;
+}
+li:nth-child(2) a:nth-child(1) {
+  font-weight: 700;
+}
+li:nth-child(3) a:nth-child(1) {
+  font-weight: 700;
+}
+
+li:nth-child(1) a:nth-child(1):hover {
+  color: #072ac8;
+}
+li:nth-child(2) a:nth-child(1):hover {
+  color: #072ac8;
+}
+li:nth-child(3) a:nth-child(1):hover {
+  color: #072ac8;
+}
+
+a.notDisplayMobileTablet {
+  padding: 12px 30px;
+  font-size: 17px;
+  border: 0;
+  background-color: #072ac8;
+  color: white;
+}
+
+/* pruebas */
+.hero article:nth-child(2) > img:nth-child(3) {
+  right: 2%;
 }
