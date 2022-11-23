@@ -16,6 +16,8 @@ Reutilizar codigo\*
 
 ## Planificación:
 
+https://trello.com/b/5FEPwSgA/kanban-template
+
 Lunes 21, noviembre, 2022:
 
 - Creación del repositorio.
