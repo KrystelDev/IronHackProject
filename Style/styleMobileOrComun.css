@@ -166,10 +166,11 @@ h4 {
   align-items: center;
 }
 .testimonial h2 {
-  margin: 55px;
+  margin: 50px;
   color: #ecf7ff;
   font-size: 40px;
   max-width: 400px;
+  line-height: 150%;
 }
 .testimonial h3 {
   max-width: 560px;
@@ -177,21 +178,45 @@ h4 {
   font-size: 24px;
   line-height: 160%;
   font-weight: 500;
+  margin: 0.5rem 0;
 }
 .testimonial article {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 3.5rem 0 2rem;
 }
 
 .perfil {
   border-radius: 50%;
   width: 3rem;
   height: 3rem;
+  background-image: url("./img/testimonial-section/profile.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 div:has(> .perfilNombre) {
-  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+
+.perfilNombre,
+.perfilEmpresa {
+  margin: 0;
+}
+
+.perfilNombre {
+  color: #a2d6f9;
+  font-size: 17px;
+}
+
+.perfilEmpresa {
+  color: #ecf7ff;
+  font-size: 13px;
 }
 
 /* pruebas preview*/
