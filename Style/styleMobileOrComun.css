@@ -1,10 +1,12 @@
 /* Customize CSS native */
 
-body {
+* {
   font-family: Roboto, sans-serif;
   margin: 0;
-  background-color: #f2f4fc;
   color: #2b2929;
+}
+body {
+  background-color: #f2f4fc;
 }
 
 .notDisplayMobile {
@@ -64,8 +66,9 @@ h4 {
   font-size: 17px;
   line-height: 150%;
   padding-top: 3px;
-  margin-bottom: 2.4rem;
   font-weight: 100;
+  max-width: 600px;
+  margin: 0 auto 2.4rem;
 }
 
 .hero button {
@@ -148,6 +151,47 @@ h4 {
   color: #072ac8;
   font-size: 17px;
   font-weight: 500;
+}
+
+/* Testimonial */
+.testimonial {
+  background-image: url("./img/testimonial-section/orbit.png");
+  background-color: #292e47;
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonial h2 {
+  margin: 55px;
+  color: #ecf7ff;
+  font-size: 40px;
+  max-width: 400px;
+}
+.testimonial h3 {
+  max-width: 560px;
+  color: #ffc600;
+  font-size: 24px;
+  line-height: 160%;
+  font-weight: 500;
+}
+.testimonial article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.perfil {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+
+div:has(> .perfilNombre) {
+  margin: 1rem;
 }
 
 /* pruebas preview*/
