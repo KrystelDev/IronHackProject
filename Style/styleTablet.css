@@ -4,7 +4,7 @@
   display: inline-block;
 }
 
-/* ********************** Start hero  ********************** */
+/* ********************** Start index  ********************** */
 h1 {
   font-size: 60px;
 }
@@ -98,6 +98,7 @@ footer {
   flex-direction: row;
   height: 7rem;
   justify-content: space-around;
+  text-align: end;
 }
 footer > div:nth-child(1) {
   display: flex;
@@ -108,4 +109,11 @@ footer > div:nth-child(1) {
 footer h4 {
   margin: 0;
   text-align: start;
+}
+
+/* ********************** Start Page Contact us ********************** */
+form > div {
+  display: flex;
+  flex-direction: row;
+  width: inherit;
 }
