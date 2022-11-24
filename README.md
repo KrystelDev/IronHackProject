@@ -67,10 +67,9 @@ Jueves 24, noviembre 2022
 - ✅ Preparar el CSS mobile Home Proyect.
 - ✅ Preparar el CSS tablet Home Proyect.
 - ✅ Preparar el CSS PC Home Proyect.
-- 👩🏻‍🔧 Api para dinamismo proyect selected .
-- Repasar que este todo listo y retocar aquello que falte.
+- ✅ Api para dinamismo proyect selected .
+- ✅ Repasar que este todo listo y retocar aquello que falte.
 
 Viernes 25, noviembre 2022
 
-- Repasar que este todo listo y retocar aquello que falte.
-- Preparar presentación.
+- 👩🏻‍🔧 Preparar presentación.
