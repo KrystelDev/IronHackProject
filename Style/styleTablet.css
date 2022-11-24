@@ -112,11 +112,11 @@ footer h4 {
 }
 
 /* ********************** Start Page Contact us ********************** */
-form > div {
+.mainContactUs form > div {
   display: flex;
   flex-direction: row;
   width: inherit;
 }
-form > div > div:nth-child(2) {
+.mainContactUs form > div > div:nth-child(2) {
   margin-left: 1rem;
 }
