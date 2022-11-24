@@ -20,45 +20,54 @@ https://trello.com/b/5FEPwSgA/kanban-template
 
 Lunes 21, noviembre, 2022:
 
-- Creación del repositorio.
-- Creación de las carpetas principales organizativas.
-- Vincular proyecto local con el repositorio de git.
-- Creación de primeros archivos.
-- Vincular archivos entre sí.
-- Planificar proyecto.
+✅ Creación del repositorio.
+✅ Creación de las carpetas principales organizativas.
+✅ Vincular proyecto local con el repositorio de git.
+✅ Creación de primeros archivos.
+✅ Vincular archivos entre sí.
+✅ Planificar proyecto.
 
 Martes 22, noviembre 2022
 
-- Estructura HTML Home.
-- Estructura HTML Contact us.
-- Estructura HTML Home Proyect.
-- Agregar navegación entre las páginas.
-- Preparar el CSS mobile navbar.
-- Preparar el CSS mobile sección de héroe.
-- Preparar el CSS mobile sección Cliente.
-- Preparar el CSS mobile sección de Proyectos.
-- Preparar el CSS mobile sección de Testimonios.
-- Preparar el CSS mobile sección de Servicios.
-- Preparar el CSS mobile sección CTA (Call to Action).
-- Preparar el CSS mobile sección de pie de página.
+✅ Estructura HTML Home.
+✅ Estructura HTML Contact us.
+❌ Estructura HTML Home Proyect.
+✅ Agregar navegación entre las páginas.
+✅ Preparar el CSS mobile navbar.
+✅ Preparar el CSS mobile sección de héroe.
+✅ Preparar el CSS mobile sección Cliente.
+✅ Preparar el CSS mobile sección de Proyectos.
+✅ Preparar el CSS mobile sección de Testimonios.
+❌ Preparar el CSS mobile sección de Servicios.
+❌ Preparar el CSS mobile sección CTA (Call to Action).
+❌ Preparar el CSS mobile sección de pie de página.
 
 Miercoles 23, noviembre 2022
 
-- Preparar el CSS PC navbar.
-- Preparar el CSS PC sección de héroe.
-- Preparar el CSS PC sección Cliente.
-- Preparar el CSS PC sección de Proyectos.
-- Preparar el CSS PC sección de Testimonios.
-- Preparar el CSS PC sección de Servicios.
-- Preparar el CSS PC sección CTA (Call to Action).
-- Preparar el CSS PC sección de pie de página.
-- Empezar a hacer obligatorio todos los campos del formulario de contacto antes de poder enviarlo.
+✅ Preparar el CSS mobile sección de Servicios.
+✅ Preparar el CSS mobile sección CTA (Call to Action).
+✅ Preparar el CSS mobile sección de pie de página.
+✅ Preparar el CSS PC navbar.
+✅ Preparar el CSS PC sección de héroe.
+✅ Preparar el CSS PC sección Cliente.
+✅ Preparar el CSS PC sección de Proyectos.
+✅ Preparar el CSS PC sección de Testimonios.
+✅ Preparar el CSS PC sección de Servicios.
+✅ Preparar el CSS PC sección CTA (Call to Action).
+✅ Preparar el CSS PC sección de pie de página.
+✅ Empezar a hacer obligatorio todos los campos del formulario de contacto antes de poder enviarlo.
 
 Jueves 24, noviembre 2022
 
-- Finalizar la parte de hacer obligatorio todos los campos del formulario de contacto antes de poder enviarlo.
-- Hacer obligatorio una estructura de e-mail en sección CTA (Call to Action).
-- (Solo si vamos dentro de la planificación) agregando animaciones a diferentes secciones, como las tarjetas de "proyectos recientes".
+✅ Finalizar la parte de hacer obligatorio todos los campos del formulario de contacto antes de poder enviarlo.
+✅ Hacer obligatorio una estructura de e-mail en sección CTA (Call to Action).
+✅ Si enviamos el formulario, imprimir en consola. Si no saltar alert.
+
+- Estructura HTML .
+- Preparar el CSS mobile Home Proyect.
+- Preparar el CSS tablet Home Proyect.
+- Preparar el CSS PC Home Proyect.
+- Api para dinamismo proyect selected .
 - Repasar que este todo listo y retocar aquello que falte.
 
 Viernes 25, noviembre 2022
