@@ -23,3 +23,39 @@ if (typeof contactUsForm != "undefined") {
     }
   };
 }
+
+/* ********************** Start CTA ********************** */
+
+if (typeof CTAForm != "undefined") {
+  CTAForm.onsubmit = (event) => {
+    event.preventDefault();
+    let mail = document.querySelector("#mail").value;
+    if (mail != "") {
+      console.log(`Nuevo subscriptor: ${mail}`);
+      alert(
+        `Hello,\n\nRecibimos tu solicitud. Recibirás nuestras noticias al correo ${mail} . Recuerda de mirar al spam o correo no deseado.`
+      );
+    } else {
+      alert(
+        `Hello,\n\nSolo debe escribir su correo electornico para subscribirse. Hasta pronto!`
+      );
+    }
+  };
+}
+
+/* ********************** Start Project (selected)********************** */
+// prueba para rellenar un objeto a la api
+fetch("https://jsonplaceholder.typicode.com/posts", {
+  method: "POST",
+  body: JSON.stringify({
+    title: "foo",
+    body: "bar",
+    userId: 1,
+  }),
+  headers: {
+    "Content-type": "application/json; charset=UTF-8",
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json))
+  .catch((error) => console.log(error));
