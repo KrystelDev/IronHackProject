@@ -346,12 +346,14 @@ footer nav > a {
   display: flex;
   flex-direction: column;
   align-items: start;
-  width: -webkit-fill-available;
+  width: -moz-available; /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
   margin: 0 2rem;
 }
 
 .mainContactUs form * {
-  width: -webkit-fill-available;
+  width: -moz-available; /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
   color: #6b708d;
   font-size: 20px;
   font-weight: 400;
@@ -373,4 +375,50 @@ footer nav > a {
   padding: 1.5rem;
   background-color: #072ac8;
   color: white;
+}
+
+/* ********************** Start PROYECT (selected)********************** */
+
+.dinamicProyect {
+  padding: 2rem;
+}
+.dinamicProyect div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dinamicProyect h2 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 1.5rem;
+}
+.dinamicProyect h3 {
+  color: #6b708d;
+}
+.dinamicProyect span {
+  color: #6b708d;
+}
+
+.dinamicProyect img {
+  width: -moz-available; /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+}
+
+.dinamicProyect .efecto {
+  position: absolute;
+  left: 0%;
+  top: 35%;
+  z-index: -1;
+  opacity: 0.4;
+  filter: saturate(100%) blur(40px);
+  /* height: 40%; */
+}
+
+.dinamicProyect p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.contenedorImagenes {
+  margin: 2rem 0;
 }
