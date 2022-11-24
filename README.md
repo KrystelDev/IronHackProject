@@ -2,7 +2,7 @@
 
 ## Objetivo final:
 
-Clonar esta misma web (responsive): https://circle-agency-35d27e.webflow.io/
+Clonar esta misma web (responsive): https://circle*agency*35d27e.webflow.io/
 
 - Esquema:
 
@@ -16,7 +16,7 @@ Reutilizar codigo\*
 
 ## Planificación:
 
-https://trello.com/b/5FEPwSgA/kanban-template
+https://trello.com/b/5FEPwSgA/kanban*template
 
 Lunes 21, noviembre, 2022:
 
@@ -60,7 +60,7 @@ Miercoles 23, noviembre 2022
 Jueves 24, noviembre 2022
 
 - ✅ Finalizar la parte de hacer obligatorio todos los campos del formulario de contacto antes de poder enviarlo.
-- ✅ Hacer obligatorio una estructura de e-mail en sección CTA (Call to Action).
+- ✅ Hacer obligatorio una estructura de e\*mail en sección CTA (Call to Action).
 - ✅ Si enviamos el formulario, imprimir en consola. Si no saltar alert.
 
 - Estructura HTML Home Proyect.
