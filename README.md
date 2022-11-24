@@ -63,7 +63,7 @@ Jueves 24, noviembre 2022
 ✅ Hacer obligatorio una estructura de e-mail en sección CTA (Call to Action).
 ✅ Si enviamos el formulario, imprimir en consola. Si no saltar alert.
 
-- Estructura HTML .
+- Estructura HTML Home Proyect.
 - Preparar el CSS mobile Home Proyect.
 - Preparar el CSS tablet Home Proyect.
 - Preparar el CSS PC Home Proyect.
@@ -73,5 +73,4 @@ Jueves 24, noviembre 2022
 Viernes 25, noviembre 2022
 
 - Repasar que este todo listo y retocar aquello que falte.
-- Subir a Netlify última versión.
 - Preparar presentación.
