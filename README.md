@@ -60,14 +60,14 @@ Miercoles 23, noviembre 2022
 Jueves 24, noviembre 2022
 
 - ✅ Finalizar la parte de hacer obligatorio todos los campos del formulario de contacto antes de poder enviarlo.
-- ✅ Hacer obligatorio una estructura de e\*mail en sección CTA (Call to Action).
+- ✅ Hacer obligatorio una estructura de email en sección CTA (Call to Action).
 - ✅ Si enviamos el formulario, imprimir en consola. Si no saltar alert.
 
-- Estructura HTML Home Proyect.
-- Preparar el CSS mobile Home Proyect.
-- Preparar el CSS tablet Home Proyect.
-- Preparar el CSS PC Home Proyect.
-- Api para dinamismo proyect selected .
+- ✅ Estructura HTML Home Proyect.
+- ✅ Preparar el CSS mobile Home Proyect.
+- ✅ Preparar el CSS tablet Home Proyect.
+- ✅ Preparar el CSS PC Home Proyect.
+- 👩🏻‍🔧 Api para dinamismo proyect selected .
 - Repasar que este todo listo y retocar aquello que falte.
 
 Viernes 25, noviembre 2022
