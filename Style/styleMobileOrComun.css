@@ -21,7 +21,8 @@ a {
   text-decoration: none;
 }
 
-/* ********************** Start nav ********************** */
+/* ********************** Start INDEX ********************** */
+/* nav */
 nav .container-fluid {
   padding: 2px 32px;
 }
@@ -285,7 +286,7 @@ div:has(> .perfilNombre) {
   border: solid 1px #cccc;
   font-size: 17px;
 }
-::placeholder {
+.contact-us ::placeholder {
   color: black;
 }
 .contact-us form > button {
@@ -312,12 +313,12 @@ footer img {
 }
 
 footer h4 {
-  margin: 1.5rem 14rem;
+  margin: 1.5rem 5rem;
   text-align: center;
 }
 
 footer nav {
-  width: 50vw;
+  width: 70vw;
   display: grid;
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
@@ -328,4 +329,48 @@ footer nav {
 footer nav > a {
   color: blue;
   font-size: 17px;
+}
+
+/* ********************** Start CONTACT ********************** */
+main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+main h1 {
+  margin-left: 30px;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: -webkit-fill-available;
+  margin: 0 2rem;
+}
+
+form * {
+  width: -webkit-fill-available;
+  color: #6b708d;
+  font-size: 20px;
+  font-weight: 400;
+}
+form ::placeholder {
+  font-size: 17px;
+}
+form input,
+form textarea {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: rgba(107, 112, 141, 0.1);
+  border: none;
+}
+form textarea {
+  height: 10rem;
+}
+[type="submit"]:not(:disabled) {
+  padding: 1.5rem;
+  background-color: #072ac8;
+  color: white;
 }
