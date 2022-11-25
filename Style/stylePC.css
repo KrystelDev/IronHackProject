@@ -70,8 +70,8 @@ a.notDisplayMobileTablet {
 }
 
 .hero article:nth-child(2) > img:nth-child(3) {
-  left: 40%;
-  bottom: -10%;
+  left: 50%;
+  bottom: -30%;
 }
 /* Clientes */
 .clientes {
