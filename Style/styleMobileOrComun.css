@@ -406,7 +406,14 @@ footer nav > a {
   max-height: 19rem;
 }
 
-.dinamicProyect .efecto {
+
+
+.dinamicProyect p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* .dinamicProyect .efecto {
   position: absolute;
   right: -32px;
   top: -50px;
@@ -417,11 +424,11 @@ footer nav > a {
   max-height: 65vh;
 }
 
-.dinamicProyect p {
-  font-size: 20px;
-  line-height: 30px;
-}
-.contenedorImagenes {
-  margin: 2rem 0;
-  position: relative;
-}
+hijo {
+  padding: 2rem;
+  /* position: relative; */
+  background-image: url(./img/projects-section/1.jpg);
+  background-size: cover;
+  opacity: 0.4;
+  filter: saturate(100%) blur(32px);
+}  */
