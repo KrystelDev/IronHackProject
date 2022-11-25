@@ -8,7 +8,8 @@
 
 /* Start navBar */
 nav .container-fluid {
-  padding: 4rem 0 4.5rem 0.1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 li:nth-child(1) a:nth-child(1) {
@@ -75,7 +76,7 @@ a.notDisplayMobileTablet {
 /* Clientes */
 .clientes {
   flex-direction: row;
-  margin-right: 3rem;
+  margin-right: 7rem;
   align-items: center;
 }
 

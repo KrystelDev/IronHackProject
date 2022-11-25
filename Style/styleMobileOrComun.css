@@ -406,11 +406,14 @@ footer nav > a {
   max-height: 19rem;
 }
 
-
+#bodyProyect {
+  margin-top:7rem;
+}
 
 .dinamicProyect p {
   font-size: 20px;
   line-height: 30px;
+  margin-top: 2rem;
 }
 
 /* .dinamicProyect .efecto {
